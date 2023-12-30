@@ -1,7 +1,5 @@
 /* eslint-disable no-console */
-import type {
-  App,
-} from 'electron'
+import type { App } from 'electron'
 import { dialog } from 'electron'
 import { autoUpdater } from 'electron-updater'
 

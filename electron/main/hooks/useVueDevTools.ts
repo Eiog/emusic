@@ -6,7 +6,7 @@ import { session } from 'electron'
 async function useVueDevTools(app: App, mainWindow: BrowserWindow) {
   if (app.isPackaged)
     return
-  const vueDevToolsPath = join(homedir(), 'AppData/Local/Google/Chrome/User Data/Default/Extensions/nhdogjmejiglipccpnnnanhbledajbpd/6.5.0_0')
+  const vueDevToolsPath = join(homedir(), 'AppData/Local/Google/Chrome/User Data/Default/Extensions/nhdogjmejiglipccpnnnanhbledajbpd/6.5.1_0')
   session.defaultSession.loadExtension(vueDevToolsPath)
   mainWindow.webContents.openDevTools()
 }

@@ -60,13 +60,34 @@
             },
             "notification": {
                 "all": true
+            },
+            "dialog": {
+              "all": true,
+              "ask": false,
+              "confirm": false,
+              "message": false,
+              "open": false,
+              "save": false
+            },
+            "fs": {
+              "all": false,
+              "copyFile": false,
+              "createDir": false,
+              "exists": false,
+              "readDir": false,
+              "readFile": true,
+              "removeDir": false,
+              "removeFile": false,
+              "renameFile": false,
+              "scope": [],
+              "writeFile": false
             }
         },
         "windows": [
             {
                 "title": "tauri-app",
-                "width": 1920,
-                "height": 1080,
+                "width": 1600,
+                "height": 900,
                 "resizable": true,
                 "fullscreen": false
             }
